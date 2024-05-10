@@ -12,5 +12,6 @@ terraform {
 
     skip_metadata_api_check = true
     skip_region_validation = true
+    # dynamodb_table = "terraform_state"
   }
 }
