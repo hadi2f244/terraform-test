@@ -5,6 +5,9 @@
 *.tfstate
 *.tfstate.*
 
+**/*.tfstate
+**/*.tfstate.*
+
 # Crash log files (in all subfolders)
 crash.log
 crash.*.log
@@ -26,8 +29,7 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-**/terraform.tfstate
-**/terraform.tfstate.backup
+
 **/.terraform.lock.hcl
 
 
